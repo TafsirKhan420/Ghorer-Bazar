@@ -1,0 +1,103 @@
+.h{
+    background-color: rgb(248, 242, 242);
+}
+.h:hover{
+    background-color: blue;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+    margin: 10px;
+}
+.a{
+    grid-column: 1/2;
+}
+.b{
+    grid-column: 2/3;
+    font-size: 20px;
+}
+.c{
+    grid-column: 5/6;
+}
+.d{
+    grid-column: 9/10;
+    font-size: 30px;
+}
+.nav{
+    gap: 30px;
+}
+.nav div a:hover{
+    text-decoration: underline;
+}
+.nav div a{    
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.e{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.k{
+    display: flex;
+    gap: 10px;
+    padding-left: 300px;
+}
+.text{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+}
+.no{
+    text-decoration: none;
+    color: black;    
+}
+.bt{
+    padding-top: 30px;
+    padding-bottom: 0px;    
+}
+.h:hover{
+    background-color: #fc8934;;
+}
+.kk{
+    display: flex;
+    padding-left: 300px;
+    gap: 50px;
+    margin-top: 40px;
+}
+.ee{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+}
+.last{
+    padding-top: 20px;
+    line-height: 30px;
+}
+.last li{
+    list-style-type: none;    
+}
+.last li a{
+    list-style-type: none; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;     
+    text-decoration: none; 
+    color: black;    
+}
+.last a:hover{
+    text-decoration: underline;
+}
+.copy{padding-top: 30px;    
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 15px; 
+    padding-bottom: 30px;
+    background-color: #fc8934;
+    color: white;
+}
